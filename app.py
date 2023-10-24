@@ -17,7 +17,9 @@ count = 0
 # Healthy and Rotten fruit column
 with col1:
   st.header("***Rotten Healthy Fruit Classifier***")
-  PREDICTED_LABELS = ["Rotten Potato", "Fresh Potato","Rotten Apple","Fresh Apple","Rotten Tomato","Fresh Tomato"]
+  #PREDICTED_LABELS = ["Rotten Potato", "Fresh Potato","Rotten Apple","Fresh Apple","Rotten Tomato","Fresh Tomato"]
+  PREDICTED_LABELS = ["Fresh Apple", "Fresh Potato","Fresh Tomato","Rotten Apple","Rotten Potato","Rotten Tomato"]
+
 
   def get_prediction(image_data):
     #replace your image classification ai service URL
@@ -66,7 +68,7 @@ with col2:
 
 #these are main classes your image is trained on
 #you can define the classes in alphabectical order
-  PREDICTED_LABELS = ['apple diseased', 'apple healthy', 'potato diseased', 'potato healthy', 'tomato diseased', 'tomato healthy']
+  PREDICTED_LABELS = ["Diseased Apple leaf", "Healthy Apple leaf", "Diseased Potato leaf", "Healthy Potato leaf", "Diseased Tomato leaf", "Healthy Tomato leaf"]
 
 
   def get_prediction(image_data):
